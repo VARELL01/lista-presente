@@ -1,4 +1,4 @@
-const chavePix = "(19) 989928641";
+const chavePix = "(19) 98992-8641";
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
@@ -6,7 +6,7 @@ const presentes = JSON.parse(localStorage.getItem("presentesValores")) || {};
 
 const lista = {
   "p1": { nome: "Ajuda para mobiliar a casa", valor: 3000, imagem: "lista-presente/img/presente1.jpg" },
-  "p2": { nome: "Cooktop última geração", valor: 450, imagem: "\lista-presenteimg/presente2.jpg" },
+  "p2": { nome: "Cooktop última geração", valor: 450, imagem: "/lista-presente/img/presente2.jpg" },
   "p3": { nome: "Curso de culinária para o noivo", valor: 1000, imagem: "\lista-presenteimg/presente3.jpg" },
   "p4": { nome: "Para a noiva não se atrasar", valor: 300, imagem: "\lista-presenteimg/presente4.jpg" },
   "p5": { nome: "Lua de mel dos noivos", valor: 2000, imagem: "\lista-presenteimg/presente5.jpg" },
