@@ -1,7 +1,8 @@
 @font-face {
   font-family: "Daisybud Script";
-  src: url("fonts/daisybud-script.ttf") format("truetype");
-  font-weight: bold;
+  src: url("fonts/DaisybudScript.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
