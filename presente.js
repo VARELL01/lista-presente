@@ -5,21 +5,21 @@ const id = params.get("id");
 const presentes = JSON.parse(localStorage.getItem("presentesValores")) || {};
 
 const lista = {
-  "p1": { nome: "Ajuda para mobiliar a casa", valor: 3000, imagem: "lista-presente/img/presente1.jpg" },
-  "p2": { nome: "Cooktop última geração", valor: 450, imagem: "/lista-presente/img/presente1.jpg" },
-  "p3": { nome: "Curso de culinária para o noivo", valor: 1000, imagem: "/lista-presente/img/presente1.jpg" },
-  "p4": { nome: "Para a noiva não se atrasar", valor: 300, imagem: "/lista-presente/img/presente1.jpg" },
-  "p5": { nome: "Lua de mel dos noivos", valor: 2000, imagem: "/lista-presente/img/presente1.jpg" },
-  "p6": { nome: "Tampão de ouvido para o noivo", valor: 250, imagem: "/lista-presente/img/presente1.jpg" },
-  "p7": { nome: "Corte de cabelo do noivo", valor: 450, imagem: "/lista-presente/img/presente1.jpg" },
-  "p8": { nome: "Prioridade no buffet", valor: 150, imagem: "/lista-presente/img/presente1.jpg" },
-  "p9": { nome: "Primeiro pedaço do bolo", valor: 50, imagem: "/lista-presente/img/presente1.jpg" },
-  "p10": { nome: "Taça dos noivos", valor: 49.99, imagem: "/lista-presente/img/presente1.jpg" },
-  "p11": { nome: "Taco para o noivo", valor: 10.99, imagem: "/lista-presente/img/presente1.jpg" },
-  "p12": { nome: "Capacete para o noivo", valor: 300, imagem: "/lista-presente/img/presente1.jpg" },
-  "p13": { nome: "Aposentadoria dos noivos", valor: 1500, imagem: "/lista-presente/img/presente1.jpg" },
-  "p14": { nome: "Dia de princesa", valor: 1000, imagem: "/lista-presente/img/presente1.jpg" },
-  "p15": { nome: "Desconto se não comprar nada", valor: 100, imagem: "/lista-presente/img/presente1.jpg" },
+  "p1": { nome: "Ajuda para mobiliar a casa", valor: 3000, imagem: "img/presente1.jpg" },
+  "p2": { nome: "Cooktop última geração", valor: 450, imagem: "img/presente2.jpg" },
+  "p3": { nome: "Curso de culinária para o noivo", valor: 1000, imagem: "img/presente3.jpg" },
+  "p4": { nome: "Para a noiva não se atrasar", valor: 300, imagem: "img/presente4.jpg" },
+  "p5": { nome: "Lua de mel dos noivos", valor: 2000, imagem: "img/presente5.jpg" },
+  "p6": { nome: "Tampão de ouvido para o noivo", valor: 250, imagem: "img/presente6.jpg" },
+  "p7": { nome: "Corte de cabelo do noivo", valor: 450, imagem: "img/presente7.jpg" },
+  "p8": { nome: "Prioridade no buffet", valor: 150, imagem: "img/presente8.jpg" },
+  "p9": { nome: "Primeiro pedaço do bolo", valor: 50, imagem: "img/presente9.jpg" },
+  "p10": { nome: "Taça dos noivos", valor: 49.99, imagem: "img/presente10.jpg" },
+  "p11": { nome: "Taco para o noivo", valor: 10.99, imagem: "img/presente11.jpg" },
+  "p12": { nome: "Capacete para o noivo", valor: 300, imagem: "img/presente12.jpg" },
+  "p13": { nome: "Aposentadoria dos noivos", valor: 1500, imagem: "img/presente13.jpg" },
+  "p14": { nome: "Dia de princesa", valor: 1000, imagem: "img/presente14.jpg" },
+  "p15": { nome: "Desconto se não comprar nada", valor: 100, imagem: "img/presente15.jpg" },
 };
 
 const item = lista[id];
