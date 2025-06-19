@@ -5,7 +5,7 @@ const id = params.get("id");
 const presentes = JSON.parse(localStorage.getItem("presentesValores")) || {};
 
 const lista = {
-  "p1": { nome: "Ajuda para mobiliar a casa", valor: 3000, imagem: "/lista-presente/img/presente1.jpg" },
+  "p1": { nome: "Ajuda para mobiliar a casa", valor: 3000, imagem: "lista-presente/img/presente1.jpg" },
   "p2": { nome: "Cooktop última geração", valor: 450, imagem: "\lista-presenteimg/presente2.jpg" },
   "p3": { nome: "Curso de culinária para o noivo", valor: 1000, imagem: "\lista-presenteimg/presente3.jpg" },
   "p4": { nome: "Para a noiva não se atrasar", valor: 300, imagem: "\lista-presenteimg/presente4.jpg" },
