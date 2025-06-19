@@ -1,12 +1,9 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fff0f5;
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-  color: #333;
+  background-image: url('fundo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
 }
 
 h1 {
