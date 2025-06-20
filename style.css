@@ -17,10 +17,10 @@ h1 {
   text-align: center;
   font-family: "Daisybud Script", cursive;
   font-weight: bold;
-  font-size: 6em;
-  color: #8B0000;
+  font-size: 5em;
+  color: #ffffff;
   margin-bottom: 30px;
-  text-shadow: 1px 1px #fff;
+  text-shadow: 1px 1px 2px #000;
 }
 .lista {
   display: flex;
