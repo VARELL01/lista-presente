@@ -5,12 +5,12 @@ const id = params.get("id");
 const presentes = JSON.parse(localStorage.getItem("presentesValores")) || {};
 
 const lista = {
-  "p1": { nome: "Ajudar para mobiliar a casa", valor: 3000, imagem: "img/presente1.jpg" },
-  "p2": { nome: "Cooktop última geração", valor: 450, imagem: "img/presente2.jpg" },
+  "p1": { nome: "Ajudar para mobiliar a casa", valor: 1500, imagem: "img/presente1.jpg" },
+  "p2": { nome: "Cooktop última geração", valor: 39.99, imagem: "img/presente2.jpg" },
   "p3": { nome: "Curso de culinária para o noivo", valor: 1000, imagem: "img/presente3.jpg" },
   "p4": { nome: "Para a noiva não se atrasar", valor: 300, imagem: "img/presente4.jpg" },
-  "p5": { nome: "Lua de mel dos noivos", valor: 2000, imagem: "img/presente5.jpg" },
-  "p6": { nome: "Tampões de ouvido para o noivo, não escutar a noiva roncando", valor: 250, imagem: "img/presente6.jpg" },
+  "p5": { nome: "Lua de mel dos noivos", valor: 1000, imagem: "img/presente5.jpg" },
+  "p6": { nome: "Tampões de ouvido para o noivo, não escutar a noiva roncando", valor: 100, imagem: "img/presente6.jpg" },
   "p7": { nome: "Corte de cabelo para o dia do casamento do noivo", valor: 450, imagem: "img/presente7.jpg" },
   "p8": { nome: "Prioridade no buffet", valor: 150, imagem: "img/presente8.jpg" },
   "p9": { nome: "Primeiro pedaço do bolo", valor: 50, imagem: "img/presente9.jpg" },
@@ -30,7 +30,7 @@ document.getElementById("detalhe").innerHTML = `
   <h2>${item.nome}</h2>
   <p>Valor total: R$ ${item.valor.toFixed(2)}</p>
   <p>Valor já enviado: R$ ${valorPago.toFixed(2)}</p>
-  <img src="pix.png" style="width:200px;" />
+  <img src="pix.png" alt="QR Code Pix" style="width: 200px;" />
   <p>Chave Pix: ${chavePix}</p>
   <input id="valor" type="number" placeholder="Quanto você enviou?" />
   <button onclick="confirmar()">Confirmar envio</button>
