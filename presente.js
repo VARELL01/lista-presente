@@ -30,7 +30,6 @@ document.getElementById("detalhe").innerHTML = `
   <h2>${item.nome}</h2>
   <p>Valor total: R$ ${item.valor.toFixed(2)}</p>
   <p>Valor já enviado: R$ ${valorPago.toFixed(2)}</p>
-  <img src="pix.png" alt="QR Code Pix" style="width: 200px;" />
   <p>Chave Pix: ${chavePix}</p>
   <input id="valor" type="number" placeholder="Quanto você enviou?" />
   <button onclick="confirmar()">Confirmar envio</button>
